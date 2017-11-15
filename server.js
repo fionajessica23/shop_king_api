@@ -20,13 +20,23 @@ app.get('/api/items', (req, res) => {
       imgUrl: 'http://via.placeholder.com/150x150'
     }, {
       id: 3,
-      name: 'blanket',
-      price: 15,
+      name: 'shirt',
+      price: 25,
       imgUrl: 'http://via.placeholder.com/150x150'
     }, {
       id: 4,
       name: 'bag',
       price: 20,
+      imgUrl: 'http://via.placeholder.com/150x150'
+    }, {
+      id: 5,
+      name: 'jacket',
+      price: 35,
+      imgUrl: 'http://via.placeholder.com/150x150'
+    }, {
+      id: 6,
+      name: 'cap',
+      price: 10,
       imgUrl: 'http://via.placeholder.com/150x150'
     }]
   }
