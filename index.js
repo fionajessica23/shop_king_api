@@ -1,7 +1,7 @@
 var express = require('express')
 var app = express()
 var cors = require('cors')
-const PORT = 9000
+const PORT = process.env.PORT || 9000
 
 // for security setting if the API are running in different server from our server
 app.use(cors())
